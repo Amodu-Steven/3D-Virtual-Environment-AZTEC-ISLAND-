@@ -25,19 +25,18 @@ This project involves creating an immersive virtual reality environment called "
 <h2>Project Features and Implementation</h2>
 
 <p align="center">
+ 
 Game Menu Interface: <br/>
-![Menu Scene](media/menu-scene.png) <!-- Replace with your actual image -->
+![Menu Scene](menu.png) <!-- Replace with your actual image -->
 <br />
 <br />
 
 Maze Design and Construction:  <br/>
-![Maze Layout](media/maze-design.png) <!-- Replace with your actual image -->
+![Maze Layout](Maze.png) <!-- Replace with your actual image -->
 <br />
 <br />
 
-Aztec Environment:  <br/>
-![Aztec Island](media/aztec-environment.png) <!-- Replace with your actual image -->
-</p>
+
 
 <h2>Key Features</h2>
 
