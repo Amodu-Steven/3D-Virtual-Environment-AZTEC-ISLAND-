@@ -36,6 +36,13 @@ Maze Design and Construction:  <br/>
 <br />
 <br />
 
+Colliders:  <br/>
+![Different](collider1.png)
+![Different](colider2.png)
+![Different](collider3.png)<!-- Replace with your actual image -->
+<br />
+<br />
+
 
 
 <h2>Key Features</h2>
