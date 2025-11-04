@@ -1,61 +1,101 @@
-# 3D-Virtual-Environment-AZTEC-ISLAND
+# Interactive Visualization Assignment - Aztec Island VR Environment
 
-<h1>JWipe - Disk Sanitization</h1>
+ ### [YouTube Demonstration](https://www.youtube.com/watch?v=CQvEaY2AXjE&t=125s)
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project involves creating an immersive virtual reality environment called "Aztec Island" using Unity. The 3D world is an educational experience that teaches users about Aztec civilization through interactive exploration, maze navigation, and puzzle-solving. Players collect rings, avoid obstacles, and learn about Aztec history while navigating through three distinct scenes.
 <br />
 
+<h2>Technologies and Tools Used</h2>
 
-<h2>Languages and Utilities Used</h2>
+- <b>Unity 2022.3.8f1</b> (Game Engine)
+- <b>C#</b> (Programming Language)
+- <b>Visual Studio</b> (IDE)
+- <b>Unity UI & Text Mesh Pro</b> (User Interface)
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+<h2>Environments Used</h2>
 
-<h2>Environments Used </h2>
+- <b>Unity 2022.3.8f1</b>
+- <b>Windows 10/11</b>
+- <b>VR Headsets</b> (Compatible)
+- <b>Desktop PCs</b> (Primary Development)
 
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
+<h2>Project Features and Implementation</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Game Menu Interface: <br/>
+![Menu Scene](media/menu-scene.png) <!-- Replace with your actual image -->
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Maze Design and Construction:  <br/>
+![Maze Layout](media/maze-design.png) <!-- Replace with your actual image -->
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Aztec Environment:  <br/>
+![Aztec Island](media/aztec-environment.png) <!-- Replace with your actual image -->
 </p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+<h2>Key Features</h2>
 
+- <b>Three Interactive Scenes</b>: Menu, Prologue, and Main Game Environment
+- <b>Advanced Collision Detection</b>: Box, Sphere, and Mesh colliders for realistic interactions
+- <b>Trigger System</b>: OnTriggerEnter/Exit events for dynamic interactions
+- <b>Inventory System</b>: Custom ring collection and tracking
+- <b>Animated Obstacles</b>: Moving walls and interactive elements
+- <b>Educational Content</b>: Aztec history and cultural information
+
+<h2>Control Scheme</h2>
+
+| Key | Function |
+|-----|----------|
+| W/Up Arrow | Move Forward |
+| S/Down Arrow | Move Backward |
+| A/Left Arrow | Move Left |
+| D/Right Arrow | Move Right |
+| Spacebar | Jump |
+| Shift | Run |
+| Mouse | Look Around |
+
+<h2>Collision System Implementation</h2>
+
+- <b>Doors</b>: Box colliders with trigger events for automatic opening/closing
+- <b>Aztec Rings</b>: Sphere colliders for collection triggers
+- <b>Maze Walls</b>: Box colliders for physical barriers
+- <b>Complex Objects</b>: Mesh colliders for detailed geometric shapes
+
+<h2>Scene Structure</h2>
+
+1. <b>Scene 1 - Menu</b>: Interactive menu with Play, Options, and Quit buttons
+2. <b>Scene 2 - Prologue</b>: Story introduction using Timeline and Canvas
+3. <b>Scene 3 - Game Environment</b>: Main Aztec Island with maze, rings, and interactive elements
+
+<h2>Educational Value</h2>
+
+- Teaches about Aztec civilization and culture
+- Develops problem-solving skills through maze navigation
+- Enhances spatial awareness and strategic thinking
+- Provides immersive historical learning experience
+
+<h2>Research Components</h2>
+
+The project includes comprehensive research on:
+- Virtual Reality applications in education
+- Comparison of VR presentation methods (Desktop, HMD, CAVE)
+- Experimental design for evaluating educational effectiveness
+- User experience assessment methodologies
+
+<h2>Skills Demonstrated</h2>
+
+- 3D environment design and development
+- C# programming for game mechanics
+- Collision detection and trigger systems
+- User interface design
+- Educational technology implementation
+- Research methodology in VR applications
+
+<br />
+<br />
